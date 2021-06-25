@@ -12,7 +12,7 @@ class Home extends Component {
         return (
             <div className="condiv home">
             <img src={profilepic} alt="ProfilePic" className="profilepic"></img>
-            <ReactTypingEffect className="typingeffect" text={['I am Pichi koka','I am a software engineering student']} speed={100} eraseDelay={700}/>
+            <ReactTypingEffect className="typingeffect" text={['I am Asutosh Ghanto','I am a software engineering student']} speed={100} eraseDelay={700}/>
             <Social/>
             <a href={require("../img/asutoshgha.jpeg")} download="myFile" className="Button">Download Resume</a>
             </div>
