@@ -4,12 +4,12 @@ class Widecard extends Component {
     render() {
         return (
             <div class="widecard">
-            <div class="compdet">
-            <h3>{this.props.title}</h3>
-            <h4 class="secondtext">{this.props.where}</h4>
-            <h4 class="secondtext">{this.props.from} - {this.props.to}</h4>
-            <h4 class="secondtext">{this.props.results}:{this.props.cgpa}</h4>
-            </div>
+                    <div class="compdet">
+                             <h3>{this.props.title}</h3>
+                             <h4 c lass="secondtext">{this.props.where}</h4>
+                            <h4 class="secondtext">{this.props.from} - {this.props.to}</h4>
+                            <h4 class="secondtext">{this.props.results}:{this.props.cgpa}</h4>
+                     </div>
             </div>
             )
         }
